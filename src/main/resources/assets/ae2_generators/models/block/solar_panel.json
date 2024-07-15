@@ -1,0 +1,11 @@
+{
+  "parent": "ae2_generators:custom/solar_panel",
+  "textures": {
+    "all": "ae2_generators:block/solar_panel_top",
+    "particle": "ae2_generators:block/solar_panel_top",
+    "3": "ae2_generators:block/solar_panel_top",
+    "4": "ae2_generators:block/solar_panel_bottom",
+    "5": "ae2_generators:block/solar_panel_side"
+  },
+  "render_type": "solid"
+}

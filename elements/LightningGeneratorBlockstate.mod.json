@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "LightningGenerator",
+    "blockstateList": [
+      {
+        "texture": "lightning_generator_bottom",
+        "textureTop": "lightning_generator_top_on_1",
+        "textureLeft": "lightning_generator_side_on_1",
+        "textureFront": "lightning_generator_side_on_1",
+        "textureRight": "lightning_generator_side_on_1",
+        "textureBack": "lightning_generator_side_on_1",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 5,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "lightning_generator_bottom",
+        "textureTop": "lightning_generator_top_on_2",
+        "textureLeft": "lightning_generator_side_on_2",
+        "textureFront": "lightning_generator_side_on_2",
+        "textureRight": "lightning_generator_side_on_2",
+        "textureBack": "lightning_generator_side_on_2",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 10,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "lightning_generator_bottom",
+        "textureTop": "lightning_generator_top_on_3",
+        "textureLeft": "lightning_generator_side_on_3",
+        "textureFront": "lightning_generator_side_on_3",
+        "textureRight": "lightning_generator_side_on_3",
+        "textureBack": "lightning_generator_side_on_3",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 15,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "block.ae2_generators.heat_generator": "Heat Generator",
+  "item_group.ae2_generators.ae_2_generators": "AE2 Generators",
+  "block.ae2_generators.lightning_generator": "Lightning Generator",
+  "block.ae2_generators.solar_panel": "Solar Panel",
+  "block.ae2_generators.solar_generator": "Solar Generator"
+}

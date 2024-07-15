@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="ae2_generators"
+version="0.1.0"
+displayName="AE2 Generators"
+displayURL="https://curseforge.com/"
+logoFile="logo.png"
+credits="Made with love using MCreator"
+authors="ExpertTrout9232"
+description="Simple generators for Applied Energistics 2"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ae2_generators]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

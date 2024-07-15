@@ -1,0 +1,298 @@
+{
+  "mod_elements": [
+    {
+      "name": "SolarGenerator",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_generator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ae2generators/block/SolarGeneratorBlock.java",
+          "src/main/resources/assets/ae2_generators/models/item/solar_generator.json",
+          "src/main/resources/assets/ae2_generators/blockstates/solar_generator.json",
+          "src/main/resources/assets/ae2_generators/models/block/solar_generator.json",
+          "src/main/java/net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity.java",
+          "src/main/resources/data/ae2_generators/loot_tables/blocks/solar_generator.json"
+        ]
+      }
+    },
+    {
+      "name": "AE2Generators",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ae_2_generators",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SolarGeneratorOnTickUpdate",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_generator_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ae2generators/procedures/SolarGeneratorOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SolarPanel",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ae2generators/block/SolarPanelBlock.java",
+          "src/main/resources/data/ae2_generators/loot_tables/blocks/solar_panel.json",
+          "src/main/resources/assets/ae2_generators/blockstates/solar_panel.json",
+          "src/main/resources/assets/ae2_generators/models/item/solar_panel.json",
+          "src/main/resources/assets/ae2_generators/models/block/solar_panel.json"
+        ]
+      }
+    },
+    {
+      "name": "SolarGeneratorCrafting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_generator_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae2_generators/recipes/solar_generator.json"
+        ]
+      }
+    },
+    {
+      "name": "SolarPanelCrafting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae2_generators/recipes/solar_panel_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "LightningGenerator",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_generator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ae2generators/block/LightningGeneratorBlock.java",
+          "src/main/java/net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity.java",
+          "src/main/resources/assets/ae2_generators/models/block/lightning_generator.json",
+          "src/main/resources/data/ae2_generators/loot_tables/blocks/lightning_generator.json",
+          "src/main/resources/assets/ae2_generators/blockstates/lightning_generator.json",
+          "src/main/resources/assets/ae2_generators/models/item/lightning_generator.json"
+        ]
+      }
+    },
+    {
+      "name": "LightningGeneratorBlockstate",
+      "type": "blockstates",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_generator_blockstate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ae2_generators/models/block/lightning_generator_blockstate_blockstate_0.json",
+          "src/main/resources/assets/ae2_generators/models/block/lightning_generator_blockstate_blockstate_1.json",
+          "src/main/resources/assets/ae2_generators/models/block/lightning_generator_blockstate_blockstate_2.json"
+        ]
+      }
+    },
+    {
+      "name": "LightningGeneratorNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_generator_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ae2generators/procedures/LightningGeneratorNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightningGeneratorCrafting",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_generator_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae2_generators/recipes/lightning_generator.json"
+        ]
+      }
+    },
+    {
+      "name": "HeatGeneratorOnTickUpdate",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heat_generator_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ae2generators/procedures/HeatGeneratorOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeatGenerator",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heat_generator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ae2generators/block/HeatGeneratorBlock.java",
+          "src/main/resources/assets/ae2_generators/blockstates/heat_generator.json",
+          "src/main/resources/assets/ae2_generators/models/item/heat_generator.json",
+          "src/main/java/net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity.java",
+          "src/main/resources/assets/ae2_generators/models/block/heat_generator.json",
+          "src/main/resources/data/ae2_generators/loot_tables/blocks/heat_generator.json"
+        ]
+      }
+    },
+    {
+      "name": "HeatGeneratorBlockstate",
+      "type": "blockstates",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heat_generator_blockstate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ae2_generators/models/block/heat_generator_blockstate_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "HeatGeneratorCrafting",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heat_generator_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae2_generators/recipes/heat_generator.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:HeatGenerator",
+      "~CUSTOM:LightningGenerator",
+      "~CUSTOM:SolarPanel",
+      "~CUSTOM:SolarGenerator"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.ae2_generators.heat_generator": "Heat Generator",
+      "item_group.ae2_generators.ae_2_generators": "AE2 Generators",
+      "block.ae2_generators.lightning_generator": "Lightning Generator",
+      "block.ae2_generators.solar_panel": "Solar Panel",
+      "block.ae2_generators.solar_generator": "Solar Generator"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ae2_generators",
+    "modName": "AE2 Generators",
+    "version": "0.1.0-beta",
+    "description": "Simple generators for Applied Energistics 2",
+    "author": "ExpertTrout9232",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.ae2generators"
+  },
+  "mcreatorVersion": 202400118518
+}

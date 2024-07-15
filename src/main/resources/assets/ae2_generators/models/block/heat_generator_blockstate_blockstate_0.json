@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ae2_generators:block/heat_generator_top_on",
+    "up": "ae2_generators:block/heat_generator_top_on",
+    "north": "ae2_generators:block/heat_generator_side",
+    "east": "ae2_generators:block/heat_generator_side",
+    "south": "ae2_generators:block/heat_generator_side",
+    "west": "ae2_generators:block/heat_generator_side",
+    "particle": "ae2_generators:block/heat_generator_top_off"
+  },
+  "render_type": "solid"
+}

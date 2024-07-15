@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "ae2_generators:block/heat_generator"
+    },
+    "blockstate=1": {
+      "model": "ae2_generators:block/heat_generator_blockstate_blockstate_0"
+    }
+  }
+}

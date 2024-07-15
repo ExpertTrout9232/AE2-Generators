@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "ae2_generators:block/lightning_generator"
+    },
+    "blockstate=1": {
+      "model": "ae2_generators:block/lightning_generator_blockstate_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "ae2_generators:block/lightning_generator_blockstate_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "ae2_generators:block/lightning_generator_blockstate_blockstate_2"
+    }
+  }
+}

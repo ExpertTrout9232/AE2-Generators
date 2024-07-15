@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "HeatGenerator",
+    "blockstateList": [
+      {
+        "texture": "heat_generator_top_on",
+        "textureTop": "heat_generator_top_on",
+        "textureLeft": "heat_generator_side",
+        "textureFront": "heat_generator_side",
+        "textureRight": "heat_generator_side",
+        "textureBack": "heat_generator_side",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 5,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

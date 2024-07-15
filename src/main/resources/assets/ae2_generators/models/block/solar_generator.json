@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ae2_generators:block/solar_generator_bottom",
+    "up": "ae2_generators:block/solar_generator_top",
+    "north": "ae2_generators:block/solar_generator_side",
+    "east": "ae2_generators:block/solar_generator_side",
+    "south": "ae2_generators:block/solar_generator_side",
+    "west": "ae2_generators:block/solar_generator_side",
+    "particle": "ae2_generators:block/solar_generator_bottom"
+  },
+  "render_type": "solid"
+}

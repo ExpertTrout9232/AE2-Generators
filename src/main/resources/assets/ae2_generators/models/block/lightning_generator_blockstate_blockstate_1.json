@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ae2_generators:block/lightning_generator_bottom",
+    "up": "ae2_generators:block/lightning_generator_top_on_2",
+    "north": "ae2_generators:block/lightning_generator_side_on_2",
+    "east": "ae2_generators:block/lightning_generator_side_on_2",
+    "south": "ae2_generators:block/lightning_generator_side_on_2",
+    "west": "ae2_generators:block/lightning_generator_side_on_2",
+    "particle": "ae2_generators:block/lightning_generator_bottom"
+  },
+  "render_type": "solid"
+}
