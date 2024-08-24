@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ae2_generators:block/wind_generator_side",
+    "up": "ae2_generators:block/wind_generator_side",
+    "north": "ae2_generators:block/wind_generator_front_1",
+    "east": "ae2_generators:block/wind_generator_side",
+    "south": "ae2_generators:block/wind_generator_front_1",
+    "west": "ae2_generators:block/wind_generator_side",
+    "particle": "ae2_generators:block/wind_generator_side"
+  },
+  "render_type": "solid"
+}

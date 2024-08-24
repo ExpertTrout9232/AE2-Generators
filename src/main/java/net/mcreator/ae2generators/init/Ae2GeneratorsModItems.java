@@ -20,6 +20,7 @@ public class Ae2GeneratorsModItems {
 	public static final RegistryObject<Item> SOLAR_PANEL = block(Ae2GeneratorsModBlocks.SOLAR_PANEL);
 	public static final RegistryObject<Item> LIGHTNING_GENERATOR = block(Ae2GeneratorsModBlocks.LIGHTNING_GENERATOR);
 	public static final RegistryObject<Item> HEAT_GENERATOR = block(Ae2GeneratorsModBlocks.HEAT_GENERATOR);
+	public static final RegistryObject<Item> WIND_GENERATOR = block(Ae2GeneratorsModBlocks.WIND_GENERATOR);
 
 	// Start of user code block custom items
 	// End of user code block custom items

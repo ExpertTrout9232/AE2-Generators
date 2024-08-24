@@ -134,82 +134,6 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\vinca\MCreatorWorkspaces\ae2_generators\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for net/mcreator/ae2generators/block/SolarPanelBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/SolarPanelBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/SolarPanelBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/SolarPanelBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/HeatGeneratorBlock/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onPlace -> m_6807_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/SolarGeneratorBlock/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onPlace -> m_6807_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/LightningGeneratorBlock/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z from net/minecraft/world/level/block/state/BlockBehaviour/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z: triggerEvent -> m_8133_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/HeatGeneratorBlock/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z from net/minecraft/world/level/block/state/BlockBehaviour/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z: triggerEvent -> m_8133_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/SolarGeneratorBlock/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z from net/minecraft/world/level/block/state/BlockBehaviour/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z: triggerEvent -> m_8133_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/block/entity/BlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag;: getUpdateTag -> m_5995_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/LightningGeneratorBlock/neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V: neighborChanged -> m_6861_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/HeatGeneratorBlock/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/block/entity/BlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag;: getUpdateTag -> m_5995_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/block/entity/BlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag;: getUpdateTag -> m_5995_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/HeatGeneratorBlock/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider; from net/minecraft/world/level/block/state/BlockBehaviour/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider;: getMenuProvider -> m_7246_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/isEmpty()Z from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/isEmpty()Z: isEmpty -> m_7983_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/LightningGeneratorBlock/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider; from net/minecraft/world/level/block/state/BlockBehaviour/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider;: getMenuProvider -> m_7246_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/SolarGeneratorBlock/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/isEmpty()Z from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/isEmpty()Z: isEmpty -> m_7983_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/LightningGeneratorBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/SolarGeneratorBlock/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider; from net/minecraft/world/level/block/state/BlockBehaviour/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider;: getMenuProvider -> m_7246_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/SolarGeneratorBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/isEmpty()Z from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/isEmpty()Z: isEmpty -> m_7983_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/HeatGeneratorBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/Container/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z: canPlaceItem -> m_7013_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/HeatGeneratorBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/LightningGeneratorBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/Container/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z: canPlaceItem -> m_7013_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/LightningGeneratorBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/SolarGeneratorBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/HeatGeneratorBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component;: getDefaultName -> m_6820_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/Container/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z: canPlaceItem -> m_7013_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component;: getDefaultName -> m_6820_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/getContainerSize()I from net/minecraft/world/Container/getContainerSize()I: getContainerSize -> m_6643_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/LightningGeneratorBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/getContainerSize()I from net/minecraft/world/Container/getContainerSize()I: getContainerSize -> m_6643_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/getItems()Lnet/minecraft/core/NonNullList; from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/getItems()Lnet/minecraft/core/NonNullList;: getItems -> m_7086_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component;: getDefaultName -> m_6820_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/HeatGeneratorBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/getItems()Lnet/minecraft/core/NonNullList; from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/getItems()Lnet/minecraft/core/NonNullList;: getItems -> m_7086_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/getContainerSize()I from net/minecraft/world/Container/getContainerSize()I: getContainerSize -> m_6643_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_6555_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/getItems()Lnet/minecraft/core/NonNullList; from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/getItems()Lnet/minecraft/core/NonNullList;: getItems -> m_7086_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_6555_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_6555_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V: setItems -> m_6520_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V: setItems -> m_6520_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V: setItems -> m_6520_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/setRemoved()V from net/minecraft/world/level/block/entity/BlockEntity/setRemoved()V: setRemoved -> m_7651_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/setRemoved()V from net/minecraft/world/level/block/entity/BlockEntity/setRemoved()V: setRemoved -> m_7651_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/getMaxStackSize()I from net/minecraft/world/Container/getMaxStackSize()I: getMaxStackSize -> m_6893_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/setRemoved()V from net/minecraft/world/level/block/entity/BlockEntity/setRemoved()V: setRemoved -> m_7651_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/getMaxStackSize()I from net/minecraft/world/Container/getMaxStackSize()I: getMaxStackSize -> m_6893_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canPlaceItemThroughFace -> m_7155_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/getMaxStackSize()I from net/minecraft/world/Container/getMaxStackSize()I: getMaxStackSize -> m_6893_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/getSlotsForFace(Lnet/minecraft/core/Direction;)[I from net/minecraft/world/WorldlyContainer/getSlotsForFace(Lnet/minecraft/core/Direction;)[I: getSlotsForFace -> m_7071_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canTakeItemThroughFace -> m_7157_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canPlaceItemThroughFace -> m_7155_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/getSlotsForFace(Lnet/minecraft/core/Direction;)[I from net/minecraft/world/WorldlyContainer/getSlotsForFace(Lnet/minecraft/core/Direction;)[I: getSlotsForFace -> m_7071_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canPlaceItemThroughFace -> m_7155_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canTakeItemThroughFace -> m_7157_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/getSlotsForFace(Lnet/minecraft/core/Direction;)[I from net/minecraft/world/WorldlyContainer/getSlotsForFace(Lnet/minecraft/core/Direction;)[I: getSlotsForFace -> m_7071_
-Conflicting propagated mapping for net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canTakeItemThroughFace -> m_7157_
 Adding extras
 Sorting
 Writing Output: C:\Users\vinca\MCreatorWorkspaces\ae2_generators\build\reobfJar\output.jar
@@ -223,6 +147,7 @@ Writing Output: C:\Users\vinca\MCreatorWorkspaces\ae2_generators\build\reobfJar\
   assets/ae2_generators/blockstates/lightning_generator.json
   assets/ae2_generators/blockstates/solar_generator.json
   assets/ae2_generators/blockstates/solar_panel.json
+  assets/ae2_generators/blockstates/wind_generator.json
   assets/ae2_generators/lang/
   assets/ae2_generators/lang/en_us.json
   assets/ae2_generators/models/
@@ -235,6 +160,8 @@ Writing Output: C:\Users\vinca\MCreatorWorkspaces\ae2_generators\build\reobfJar\
   assets/ae2_generators/models/block/lightning_generator_blockstate_blockstate_2.json
   assets/ae2_generators/models/block/solar_generator.json
   assets/ae2_generators/models/block/solar_panel.json
+  assets/ae2_generators/models/block/wind_generator.json
+  assets/ae2_generators/models/block/wind_generator_blockstate_blockstate_0.json
   assets/ae2_generators/models/custom/
   assets/ae2_generators/models/custom/solar_panel.json
   assets/ae2_generators/models/item/
@@ -242,6 +169,7 @@ Writing Output: C:\Users\vinca\MCreatorWorkspaces\ae2_generators\build\reobfJar\
   assets/ae2_generators/models/item/lightning_generator.json
   assets/ae2_generators/models/item/solar_generator.json
   assets/ae2_generators/models/item/solar_panel.json
+  assets/ae2_generators/models/item/wind_generator.json
   assets/ae2_generators/textures/
   assets/ae2_generators/textures/block/
   assets/ae2_generators/textures/block/heat_generator_side.png
@@ -262,6 +190,9 @@ Writing Output: C:\Users\vinca\MCreatorWorkspaces\ae2_generators\build\reobfJar\
   assets/ae2_generators/textures/block/solar_panel_bottom.png
   assets/ae2_generators/textures/block/solar_panel_side.png
   assets/ae2_generators/textures/block/solar_panel_top.png
+  assets/ae2_generators/textures/block/wind_generator_front_1.png
+  assets/ae2_generators/textures/block/wind_generator_front_2.png
+  assets/ae2_generators/textures/block/wind_generator_side.png
   assets/ae2_generators/textures/logo.png
   data/
   data/ae2_generators/
@@ -271,11 +202,16 @@ Writing Output: C:\Users\vinca\MCreatorWorkspaces\ae2_generators\build\reobfJar\
   data/ae2_generators/loot_tables/blocks/lightning_generator.json
   data/ae2_generators/loot_tables/blocks/solar_generator.json
   data/ae2_generators/loot_tables/blocks/solar_panel.json
+  data/ae2_generators/loot_tables/blocks/wind_generator.json
   data/ae2_generators/recipes/
   data/ae2_generators/recipes/heat_generator.json
   data/ae2_generators/recipes/lightning_generator.json
   data/ae2_generators/recipes/solar_generator.json
   data/ae2_generators/recipes/solar_panel_crafting.json
+  data/ae2_generators/recipes/wind_generator_crafting.json
+  data/ae2_generators/tags/
+  data/ae2_generators/tags/items/
+  data/ae2_generators/tags/items/bio_generator_fuel.json
   data/minecraft/
   data/minecraft/tags/
   data/minecraft/tags/blocks/
@@ -291,8 +227,12 @@ Writing Output: C:\Users\vinca\MCreatorWorkspaces\ae2_generators\build\reobfJar\
   net/mcreator/ae2generators/block/HeatGeneratorBlock.class
   net/mcreator/ae2generators/block/LightningGeneratorBlock$1.class
   net/mcreator/ae2generators/block/LightningGeneratorBlock.class
+  net/mcreator/ae2generators/block/SolarGeneratorBlock$1.class
   net/mcreator/ae2generators/block/SolarGeneratorBlock.class
   net/mcreator/ae2generators/block/SolarPanelBlock.class
+  net/mcreator/ae2generators/block/WindGeneratorBlock$1.class
+  net/mcreator/ae2generators/block/WindGeneratorBlock$2.class
+  net/mcreator/ae2generators/block/WindGeneratorBlock.class
   net/mcreator/ae2generators/block/entity/
   net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity$1.class
   net/mcreator/ae2generators/block/entity/HeatGeneratorBlockEntity.class
@@ -300,6 +240,8 @@ Writing Output: C:\Users\vinca\MCreatorWorkspaces\ae2_generators\build\reobfJar\
   net/mcreator/ae2generators/block/entity/LightningGeneratorBlockEntity.class
   net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity$1.class
   net/mcreator/ae2generators/block/entity/SolarGeneratorBlockEntity.class
+  net/mcreator/ae2generators/block/entity/WindGeneratorBlockEntity$1.class
+  net/mcreator/ae2generators/block/entity/WindGeneratorBlockEntity.class
   net/mcreator/ae2generators/init/
   net/mcreator/ae2generators/init/Ae2GeneratorsModBlockEntities.class
   net/mcreator/ae2generators/init/Ae2GeneratorsModBlocks.class
@@ -310,6 +252,7 @@ Writing Output: C:\Users\vinca\MCreatorWorkspaces\ae2_generators\build\reobfJar\
   net/mcreator/ae2generators/procedures/HeatGeneratorOnTickUpdateProcedure$2.class
   net/mcreator/ae2generators/procedures/HeatGeneratorOnTickUpdateProcedure$3.class
   net/mcreator/ae2generators/procedures/HeatGeneratorOnTickUpdateProcedure$4.class
+  net/mcreator/ae2generators/procedures/HeatGeneratorOnTickUpdateProcedure$5.class
   net/mcreator/ae2generators/procedures/HeatGeneratorOnTickUpdateProcedure.class
   net/mcreator/ae2generators/procedures/LightningGeneratorNeighbourBlockChangesProcedure$1.class
   net/mcreator/ae2generators/procedures/LightningGeneratorNeighbourBlockChangesProcedure$2.class
@@ -323,4 +266,10 @@ Writing Output: C:\Users\vinca\MCreatorWorkspaces\ae2_generators\build\reobfJar\
   net/mcreator/ae2generators/procedures/SolarGeneratorOnTickUpdateProcedure$4.class
   net/mcreator/ae2generators/procedures/SolarGeneratorOnTickUpdateProcedure$5.class
   net/mcreator/ae2generators/procedures/SolarGeneratorOnTickUpdateProcedure.class
+  net/mcreator/ae2generators/procedures/WindGeneratorBlockAddedProcedure.class
+  net/mcreator/ae2generators/procedures/WindGeneratorOnTickUpdateProcedure$1.class
+  net/mcreator/ae2generators/procedures/WindGeneratorOnTickUpdateProcedure$2.class
+  net/mcreator/ae2generators/procedures/WindGeneratorOnTickUpdateProcedure$3.class
+  net/mcreator/ae2generators/procedures/WindGeneratorOnTickUpdateProcedure$4.class
+  net/mcreator/ae2generators/procedures/WindGeneratorOnTickUpdateProcedure.class
   pack.mcmeta

@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="ae2_generators"
-version="0.1.0"
+version="0.2.0"
 displayName="AE2 Generators"
 displayURL="https://curseforge.com/"
 logoFile="logo.png"

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "ae2_generators:wind_generator",
     "ae2_generators:heat_generator",
     "ae2_generators:lightning_generator",
     "ae2_generators:solar_panel",

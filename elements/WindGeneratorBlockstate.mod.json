@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "WindGenerator",
+    "blockstateList": [
+      {
+        "texture": "wind_generator_side",
+        "textureTop": "wind_generator_side",
+        "textureLeft": "wind_generator_side",
+        "textureFront": "wind_generator_front_2",
+        "textureRight": "wind_generator_side",
+        "textureBack": "wind_generator_front_2",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

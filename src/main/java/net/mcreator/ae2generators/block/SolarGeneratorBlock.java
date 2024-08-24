@@ -1,8 +1,14 @@
 
 package net.mcreator.ae2generators.block;
 
+import org.checkerframework.checker.units.qual.s;
+
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -20,13 +26,33 @@ import net.mcreator.ae2generators.procedures.SolarGeneratorOnTickUpdateProcedure
 import net.mcreator.ae2generators.block.entity.SolarGeneratorBlockEntity;
 
 public class SolarGeneratorBlock extends Block implements EntityBlock {
+	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 2);
+
 	public SolarGeneratorBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 5f).pushReaction(PushReaction.BLOCK));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 5f).lightLevel(s -> (new Object() {
+			public int getLightLevel() {
+				if (s.getValue(BLOCKSTATE) == 1)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 2)
+					return 0;
+				return 0;
+			}
+		}.getLightLevel())).pushReaction(PushReaction.BLOCK));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return box(0, 0, 0, 16, 16, 16);
+	}
+
+	@Override
+	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+		builder.add(BLOCKSTATE);
 	}
 
 	@Override

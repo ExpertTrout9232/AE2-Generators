@@ -22,6 +22,7 @@ public class Ae2GeneratorsModTabs {
 				tabData.accept(Ae2GeneratorsModBlocks.SOLAR_PANEL.get().asItem());
 				tabData.accept(Ae2GeneratorsModBlocks.LIGHTNING_GENERATOR.get().asItem());
 				tabData.accept(Ae2GeneratorsModBlocks.HEAT_GENERATOR.get().asItem());
+				tabData.accept(Ae2GeneratorsModBlocks.WIND_GENERATOR.get().asItem());
 			})
 
 					.build());
